@@ -1,0 +1,18 @@
+
+# Store 5000 lines of history
+defscrollback 5000
+
+# Turn off screen flash
+vbell off
+
+# Stop full screen programs from remaining in the scrollback buffer
+altscreen on
+
+# Treat every window as a login shell (and source ~/.bash_profile)
+shell -$SHELL
+
+# Start window numbering at 1
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
