@@ -9,5 +9,5 @@ fi
 
 # If logging in over ssh, log straight into screen
 if [ -z "$STY" -a -n "$SSH_TTY" ]; then
-   exec screen -R
+   exec screen -D -R
 fi
