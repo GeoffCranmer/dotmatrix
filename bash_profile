@@ -6,6 +6,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
+alias ll='ls -l'
+alias lla='ls -la'
 
 # Disable gnome-ssh-askpass over SSH
 [ -n "$SSH_TTY" ] && unset SSH_ASKPASS
