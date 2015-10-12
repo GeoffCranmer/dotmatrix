@@ -9,6 +9,8 @@ fi
 alias ll='ls -l'
 alias lla='ls -la'
 
+export EDITOR=vim
+
 # Disable gnome-ssh-askpass over SSH
 [ -n "$SSH_TTY" ] && unset SSH_ASKPASS
 
