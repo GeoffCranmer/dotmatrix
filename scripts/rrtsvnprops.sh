@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Rose RealTime SVN Properties
 # Set svn:needslock on all non-mergeable RoseRT file types

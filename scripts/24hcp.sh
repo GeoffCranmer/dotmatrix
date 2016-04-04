@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script copies all contents of a directory that have been modified within 
 # 24 hours

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Pattern Link
 # This script creates symbolic links using a pattern specified as an argument.

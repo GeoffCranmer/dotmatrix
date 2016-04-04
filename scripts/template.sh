@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Unofficial Bash Strict Mode
 # See http://redsymbol.net/articles/unofficial-bash-strict-mode/
