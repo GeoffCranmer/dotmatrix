@@ -1,16 +1,24 @@
-filetype plugin indent on
+" Set 'nocompatible' to ward off unexpected things that your distro might
+" have made, as well as sanely reset options when re-sourcing .vimrc
+set nocompatible
 
-set so=7
+" Attempt to determine the type of a file based on its name and possibly its
+" contents. Use this to allow intelligent auto-indenting for each filetype,
+" and for plugins that are filetype specific.
+filetype indent plugin on
 
+" Enable syntax highlighting
 syntax on
-set encoding=utf-8
 
-set expandtab
-set smarttab
-
+" Use 2 spaces instead of tabs
 set shiftwidth=2
-set tabstop=2
+set softtabstop=2
+set expandtab
 
+" Always keep 7 lines visible above or below the cursor
+set scrolloff=7
+
+" Enable clang-format with <C-k>
 map <C-K> :pyf ~/dotmatrix/clang-format.py<cr>
 imap <C-K> <c-o>:pyf ~/dotmatrix/clang-format.py<cr>
 
