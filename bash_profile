@@ -22,3 +22,9 @@ if [ -z "$TMUX" -a -n "$SSH_TTY" ]; then
 		exec tmux new-session -s $USER
 	fi
 fi
+
+# MacPorts
+if [ "$(uname)" == "Darwin" ]; then
+  export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+fi
+
