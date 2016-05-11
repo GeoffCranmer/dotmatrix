@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check for Open Files
 # Device or resource busy? Find the culprit.
