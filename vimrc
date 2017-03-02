@@ -18,6 +18,12 @@ set expandtab
 " Always keep 7 lines visible above or below the cursor
 set scrolloff=7
 
+" Stop using arrow keys
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
 " Enable clang-format with <C-k>
 map <C-K> :pyf ~/dotmatrix/clang-format.py<cr>
 imap <C-K> <c-o>:pyf ~/dotmatrix/clang-format.py<cr>
