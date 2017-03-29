@@ -16,6 +16,9 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 
+" Show line numbers
+set number
+
 " Always keep 7 lines visible above or below the cursor
 set scrolloff=7
 
