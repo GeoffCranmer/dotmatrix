@@ -11,8 +11,9 @@ filetype indent plugin on
 syntax on
 
 " Use 2 spaces instead of tabs
-set shiftwidth=2
+set tabstop=2
 set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " Always keep 7 lines visible above or below the cursor
