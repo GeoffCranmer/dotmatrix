@@ -23,8 +23,3 @@ if [ -n "$SSH_TTY" ] && type tmux >/dev/null 2>/dev/null; then
 	fi
 fi
 
-# MacPorts
-if [ "$(uname)" == "Darwin" ]; then
-  export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-fi
-
