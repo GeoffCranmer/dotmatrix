@@ -11,6 +11,9 @@ alias lla='ls -la'
 
 export EDITOR=vim
 
+# Enable vi editing mode
+set -o vi
+
 # Disable gnome-ssh-askpass over SSH
 [ -n "$SSH_TTY" ] && unset SSH_ASKPASS
 
