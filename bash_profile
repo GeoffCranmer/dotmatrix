@@ -14,6 +14,9 @@ export EDITOR=vim
 # Enable vi editing mode
 set -o vi
 
+# Add cargo bin directory to PATH
+export PATH=$PATH:~/.cargo/bin
+
 # Disable gnome-ssh-askpass over SSH
 [ -n "$SSH_TTY" ] && unset SSH_ASKPASS
 
