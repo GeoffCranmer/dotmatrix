@@ -9,6 +9,7 @@ fi
 alias ll='ls -l'
 alias lla='ls -la'
 
+export PS1='$ '
 export EDITOR=vim
 
 # Enable vi editing mode
