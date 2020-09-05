@@ -29,6 +29,9 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+" Show trailing whitespace as -
+set listchars=trail:-
+
 " Enable clang-format with <C-k>
 map <C-K> :pyf ~/dotmatrix/clang-format.py<cr>
 imap <C-K> <c-o>:pyf ~/dotmatrix/clang-format.py<cr>
